@@ -5,6 +5,8 @@
   align-items: center;
   border-bottom: 1px solid var(--color-border);
   transition: background-color 100ms ease-in-out;
+
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .navbar .user {
@@ -38,6 +40,12 @@
   label {
     display: flex;
     align-items: center;
+    gap: 5px;
+
+    & .switch-label {
+      font-size: 14px;
+      color: var(--color-text-secondary);
+    }
   }
   
   .slider {

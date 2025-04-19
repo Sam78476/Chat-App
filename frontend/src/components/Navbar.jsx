@@ -20,6 +20,7 @@ const Navbar = () => {
 			<div className="right">
 				<div className="darkmode-toggle">
 					<label>
+						<span className="switch-label">Light Mode</span>
 						<input type="checkbox" onChange={() => {
 							document.body.classList.toggle("dark-mode")
 						}} />

@@ -17,7 +17,7 @@ function Sidebar() {
     <aside className="sidebar">
         
         <div className="sidebar-header">
-            <h2>Chat App</h2> 
+            <h2>Whiz Chat</h2> 
             <input type="text" placeholder="Search ..." />
         </div>
 
