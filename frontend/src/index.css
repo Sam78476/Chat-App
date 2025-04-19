@@ -9,8 +9,6 @@
   --color-hover-border: #ccc; /* Hover border color */
   --color-text-primary: #333; /* Primary text color */
   --color-text-secondary: #666; /* Secondary text color */
-  --color-input-border: #ccc; /* Input field border color */
-  --color-avatar-border: #ccc; /* Avatar border color */
 }
 
 .dark-mode {
@@ -20,13 +18,12 @@
   --color-border: #404040;
   --color-hover-bg: #303030;
   --color-text-primary: #fffffff0;
-  --color-text-secondary: #ffffffc0;
-  --color-input-border: #ccc;
-  --color-avatar-border: #ccc;
+  --color-text-secondary: #ffffffa1;
 }
 
 body {
   background-color: var(--body-color);
+  transition: background-color 100ms ease-in-out;
 }
 
 * {
@@ -34,6 +31,12 @@ body {
   margin: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
+  color: var(--color-text-primary);
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: auto 1fr;
 }
 
 ::-webkit-scrollbar {

@@ -17,51 +17,13 @@ function Sidebar() {
     <aside className="sidebar">
         
         <div className="sidebar-header">
-            <h2>Chat App</h2>
+            <h2>Chat App</h2> 
             <input type="text" placeholder="Search ..." />
         </div>
 
         <div className="sidebar-links">
         <Card img="https://dummyimage.com/100x100/000/fff&text=User1" name="User 1" />
             <Card img="https://dummyimage.com/100x100/000/fff&text=User2" name="User 2" />
-            <Card img="https://dummyimage.com/100x100/000/fff&text=User3" name="User 3" />
-            <Card img="https://dummyimage.com/100x100/000/fff&text=User3" name="User 3" />
-            <Card img="https://dummyimage.com/100x100/000/fff&text=User3" name="User 3" />
-            <Card img="https://dummyimage.com/100x100/000/fff&text=User3" name="User 3" />
-            <Card img="https://dummyimage.com/100x100/000/fff&text=User3" name="User 3" />
-            <Card img="https://dummyimage.com/100x100/000/fff&text=User3" name="User 3" />
-            <Card img="https://dummyimage.com/100x100/000/fff&text=User3" name="User 3" />
-            <Card img="https://dummyimage.com/100x100/000/fff&text=User3" name="User 3" />
-            <Card img="https://dummyimage.com/100x100/000/fff&text=User3" name="User 3" />
-            <Card img="https://dummyimage.com/100x100/000/fff&text=User3" name="User 3" />
-            <Card img="https://dummyimage.com/100x100/000/fff&text=User3" name="User 3" />
-            <Card img="https://dummyimage.com/100x100/000/fff&text=User3" name="User 3" />
-            <Card img="https://dummyimage.com/100x100/000/fff&text=User3" name="User 3" />
-            <Card img="https://dummyimage.com/100x100/000/fff&text=User3" name="User 3" />
-            <Card img="https://dummyimage.com/100x100/000/fff&text=User3" name="User 3" />
-            <Card img="https://dummyimage.com/100x100/000/fff&text=User3" name="User 3" />
-            <Card img="https://dummyimage.com/100x100/000/fff&text=User3" name="User 3" />
-            <Card img="https://dummyimage.com/100x100/000/fff&text=User3" name="User 3" />
-            <Card img="https://dummyimage.com/100x100/000/fff&text=User3" name="User 3" />
-            <Card img="https://dummyimage.com/100x100/000/fff&text=User3" name="User 3" />
-            <Card img="https://dummyimage.com/100x100/000/fff&text=User3" name="User 3" />
-            <Card img="https://dummyimage.com/100x100/000/fff&text=User3" name="User 3" />
-            <Card img="https://dummyimage.com/100x100/000/fff&text=User3" name="User 3" />
-            <Card img="https://dummyimage.com/100x100/000/fff&text=User3" name="User 3" />
-            <Card img="https://dummyimage.com/100x100/000/fff&text=User3" name="User 3" />
-            <Card img="https://dummyimage.com/100x100/000/fff&text=User3" name="User 3" />
-            <Card img="https://dummyimage.com/100x100/000/fff&text=User3" name="User 3" />
-            <Card img="https://dummyimage.com/100x100/000/fff&text=User3" name="User 3" />
-            <Card img="https://dummyimage.com/100x100/000/fff&text=User3" name="User 3" />
-            <Card img="https://dummyimage.com/100x100/000/fff&text=User3" name="User 3" />
-            <Card img="https://dummyimage.com/100x100/000/fff&text=User3" name="User 3" />
-            <Card img="https://dummyimage.com/100x100/000/fff&text=User3" name="User 3" />
-            <Card img="https://dummyimage.com/100x100/000/fff&text=User3" name="User 3" />
-            <Card img="https://dummyimage.com/100x100/000/fff&text=User3" name="User 3" />
-            <Card img="https://dummyimage.com/100x100/000/fff&text=User3" name="User 3" />
-            <Card img="https://dummyimage.com/100x100/000/fff&text=User3" name="User 3" />
-            <Card img="https://dummyimage.com/100x100/000/fff&text=User3" name="User 3" />
-            <Card img="https://dummyimage.com/100x100/000/fff&text=User3" name="User 3" />
             <Card img="https://dummyimage.com/100x100/000/fff&text=User3" name="User 3" />
             <Card img="https://dummyimage.com/100x100/000/fff&text=User3" name="User 3" />
             <Card img="https://dummyimage.com/100x100/000/fff&text=User3" name="User 3" />
