@@ -1,53 +1,85 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root {
-  --body-color: #f4f4f4; /* Main background color */
-  --color-primary-bg: #f4f4f4; /* Background for sidebar and app */
-  --color-secondary-bg: #fff; /* Background for cards and other elements */
-  --color-border: #ddd; /* General border color */
-  --color-hover-bg: #f0f0f0; /* Hover background for interactive elements */
-  --color-hover-border: #ccc; /* Hover border color */
-  --color-text-primary: #333; /* Primary text color */
-  --color-text-secondary: #666; /* Secondary text color */
+	--body-color: #f4f4f4;				/* Main background color */
+	--color-primary-bg: #f4f4f4;		/* Background for sidebar and app */
+	--color-secondary-bg: #fff;		/* Background for cards and other elements */
+	--color-border: #ddd;				/* General border color */
+	--color-hover-bg: #f0f0f0;			/* Hover background for interactive elements */
+	--color-hover-border: #ccc;		/* Hover border color */
+	--color-text-primary: #333;		/* Primary text color */
+	--color-text-secondary: #666;		/* Secondary text color */
+	--color-accent: #9d00fe;			/* Accent color for links and buttons */
+
+	--sender-message-bg: linear-gradient(to right, #924ffe, #9d00fe);
+	--sender-message-fg: #f4f4f4;
 }
 
 .dark-mode {
-  --body-color: #151515; /* Main background color */
-  --color-primary-bg: #252525;
-  --color-secondary-bg: #252525;
-  --color-border: #404040;
-  --color-hover-bg: #303030;
-  --color-text-primary: #fffffff0;
-  --color-text-secondary: #ffffffa1;
+	--body-color: #151515;
+	--color-primary-bg: #252525;
+	--color-secondary-bg: #252525;
+	--color-border: #404040;
+	--color-hover-bg: #303030;
+	--color-text-primary: #fffffff0;
+	--color-text-secondary: #ffffffa1;
+	--color-accent: #9d00fe;
+
+	--sender-message-bg: linear-gradient(to right, #924ffe, #9d00fe);
+	--sender-message-fg: var(--color-text-primary);
+	
+	--recever-message-bg: linear-gradient(to right, #404040, #313131);
+	
 }
 
 body {
-  background-color: var(--body-color);
-  transition: background-color 100ms ease-in-out;
+	background-color: var(--body-color);
+	transition: background-color 100ms ease-in-out;
 }
 
 * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
-  color: var(--color-text-primary);
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+	color: var(--color-text-primary);
 }
 
-.layout {
-  display: grid;
-  grid-template-columns: auto 1fr;
-}
 
 ::-webkit-scrollbar {
-  width: 5px;
+	width: 5px;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #b5b5b5;
-  border-radius: 5px;
+	background: #b5b5b5;
+	border-radius: 5px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #a0a0a0;
+	background: #a0a0a0;
+}
+
+.layout {
+	display: grid;
+	grid-template-columns: auto 1fr;
+}
+
+.message-area {
+	height: 600px;
+	overflow-y: scroll;
+	padding: 20px 100px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column-reverse;
+	align-items: center;
+	gap: 15px;
+}
+
+.message-input-container {
+	position: absolute;
+	bottom: 0;
+	width: calc(100% - 300px);
+	padding-bottom: 25px;
+	padding-top: 5px;
+	z-index: 7;
 }

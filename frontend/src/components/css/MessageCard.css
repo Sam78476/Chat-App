@@ -1,0 +1,22 @@
+.message-card {
+    background: var(--sender-message-bg);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    
+    width: 350px;
+    border-radius: 10px;
+    padding: 10px;
+    align-self: flex-end;
+
+    p {
+        color: var(--sender-message-fg);
+    }
+}
+
+.message-card.other {
+    background: var(--recever-message-bg);
+    align-self: flex-start;
+
+    p {
+        color: var(--recever-message-fg);
+    }
+}

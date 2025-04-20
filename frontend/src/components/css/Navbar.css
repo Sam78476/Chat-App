@@ -7,6 +7,9 @@
   transition: background-color 100ms ease-in-out;
 
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+
+  position: sticky;
+  top: 0;
 }
 
 .navbar .user {
@@ -71,7 +74,7 @@
   }
   
   input:checked + .slider {
-    background-color: #007bff;
+    background-color: var(--color-accent);
   }
   
   input:checked + .slider::before {
